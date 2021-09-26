@@ -3,12 +3,13 @@
 .main{
     margin: 5px;
     border-radius: 10px;
-    background-color: #c0ced8;
+    background-color: #1f7cbe;
+    width:1000px;
 }
 
 .top{
     height: 100px;
-    background-color: #483dbd;
+    background-color: #7179b0;
     color: rgb(240, 150, 15);
     padding: 10px;
     border-radius: 40px 40px 0 0;
@@ -18,8 +19,8 @@
 }
 
 .header{
-    background-color: #250323;
-    color: rgb(228, 6, 6);
+    background-color: #7179b0;
+    color: rgb(20, 14, 14);
     margin: 10px 20px 20px 10px;
     font-size: 25px;
     border-radius: 20px 20px 0 0;
