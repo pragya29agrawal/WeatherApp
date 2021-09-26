@@ -22,14 +22,6 @@ export default function App() {
       .then(result => {
         setData(result)
       });
-     
-
-      // await fetch(`${process.env.REACT_APP_API_URL}/forecast/?lat=${lat}&lon=${long}&units=metric&APPID=${process.env.REACT_APP_API_KEY}`)
-      // .then(res => res.json())
-      // .then(resultforecast => {
-      //   setDataForecast(resultforecast)
-      //   console.log(resultforecast);
-      // });
     }
     fetchData();
   }, [lat,long])
